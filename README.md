@@ -1,5 +1,12 @@
 # MLFlow Tutorials
 
+This is a simple demonstration of MLFlow using RandomForest 
+
+To run the file
+```python rf.py```
+
+All the other files are just for practice
+
 To start the ML flow server ```mlflow ui``` or ```mlflow sever``` and navigate to ```127.0.0.1:5000``` to see the dashboard
 
 The dashboards page is as follows
