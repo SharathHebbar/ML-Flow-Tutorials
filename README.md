@@ -1,6 +1,6 @@
 # MLFlow Tutorials
 
-[Image1](1.png)
+assets\1.png
 [Image2](2.png)
 [Image3](3.png)
 [Image4](4.png)
