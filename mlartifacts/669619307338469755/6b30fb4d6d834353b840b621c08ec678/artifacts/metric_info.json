@@ -1,0 +1,4 @@
+{
+  "RandomForestClassifier_score-2_xtest": "RandomForestClassifier.score(X=xtest, y=ytest)",
+  "RandomForestClassifier_score_xtrain": "RandomForestClassifier.score(X=xtrain, y=ytrain)"
+}

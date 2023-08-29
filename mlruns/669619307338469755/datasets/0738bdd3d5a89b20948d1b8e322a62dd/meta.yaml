@@ -1,0 +1,11 @@
+digest: 8062f33d
+name: dataset
+profile: '{"num_rows": 691, "num_elements": 5528}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Pregnancies"}, {"type": "long",
+  "name": "Glucose"}, {"type": "long", "name": "BloodPressure"}, {"type": "long",
+  "name": "SkinThickness"}, {"type": "long", "name": "Insulin"}, {"type": "double",
+  "name": "BMI"}, {"type": "double", "name": "DiabetesPedigreeFunction"}, {"type":
+  "long", "name": "Age"}]}'
+source: '{"tags": {"mlflow.user": "shash", "mlflow.source.name": "rf.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code

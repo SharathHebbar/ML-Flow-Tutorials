@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/669619307338469755
+creation_time: 1693304476104
+experiment_id: '669619307338469755'
+last_update_time: 1693304476104
+lifecycle_stage: active
+name: Random_forest_diabetes_prediction

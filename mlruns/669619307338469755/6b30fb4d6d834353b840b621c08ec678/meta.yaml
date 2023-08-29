@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/669619307338469755/6b30fb4d6d834353b840b621c08ec678/artifacts
+end_time: 1693304485276
+entry_point_name: ''
+experiment_id: '669619307338469755'
+lifecycle_stage: active
+run_id: 6b30fb4d6d834353b840b621c08ec678
+run_name: rf6
+run_uuid: 6b30fb4d6d834353b840b621c08ec678
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693304476890
+status: 3
+tags: []
+user_id: shash
