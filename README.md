@@ -1,5 +1,6 @@
 # MLFlow Tutorials
 
+To start the ML flow server ```mlflow ui``` or ```mlflow sever``` and navigate to ```127.0.0.1:5000``` to see the dashboard
 ## Experiment Page
 ![assets\1.png](https://github.com/SharathHebbar/ML-Flow-Tutorials/blob/main/assets/1.png)
 
