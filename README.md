@@ -7,7 +7,7 @@ To run the file
 
 All the other files are just for practice
 
-To start the ML flow server ```mlflow ui``` or ```mlflow sever``` and navigate to ```127.0.0.1:5000``` to see the dashboard
+To start the ML flow server ```mlflow ui``` or ```mlflow serve``` and navigate to ```127.0.0.1:5000``` to see the dashboard
 
 The dashboards page is as follows
 
