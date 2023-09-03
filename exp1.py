@@ -1,17 +1,19 @@
 import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 
 import mlflow
 import mlflow.sklearn
 mlflow.tracking.set_tracking_uri("http://127.0.0.1:5000/")
 mlflow.set_experiment(experiment_name="Random_forest_diabetes_prediction")
 
-## Auto Logging
-mlflow.sklearn.autolog()
-print("Start")
-with mlflow.start_run(run_name="random-forest-demo-1") as run:
+
+with mlflow.start_run(run_name="rf4") as run:
 
     df = pd.read_csv("https://raw.githubusercontent.com/SharathHebbar/Random-Forest/main/diabetes.csv")
     df.shape
@@ -59,16 +61,14 @@ with mlflow.start_run(run_name="random-forest-demo-1") as run:
         "class_weight" : "balanced_subsample"}
 
     # ML Flow log params
-    # mlflow.log_params(params)
+    mlflow.log_params(params)
     rf.fit(xtrain, ytrain)
 
     training_accuracy = rf.score(xtrain, ytrain)
     testing_accuracy = rf.score(xtest, ytest) 
-    y_pred = rf.predict(xtest)
 
 
     # Logging metric
-    
+    mlflow.log_metric("Accuracy", testing_accuracy)
     mlflow.set_tag("classifier", "rf")
-    
-print("Done")
+    mlflow.sklearn.log_model(rf, "model")
